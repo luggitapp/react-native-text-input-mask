@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/luggitapp/react-native-text-input-mask.git' }
   s.platform     = :ios, '8.0'
   s.framework    = 'UIKit'
-  s.source_files = 'ios/RNTextInputMask/*.{h,m}'
+  s.source_files = 'ios/*.{h,m}'
   s.dependency 'React'
   s.dependency 'InputMask'
 end
