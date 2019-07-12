@@ -2,8 +2,8 @@
 #import <React/RCTConvert.h>
 #import <React/RCTUIManager.h>
 #import <React/RCTEventDispatcher.h>
-#import <RCTText/RCTSinglelineTextInputView.h>
-#import <RCTText/RCTUITextField.h>
+#import <React/RCTSinglelineTextInputView.h>
+#import <React/RCTUITextField.h>
 #import "RNTextInputMask.h"
 
 @import InputMask;
