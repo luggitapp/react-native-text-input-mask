@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.framework    = 'UIKit'
   s.source_files = 'ios/*.{h,m}'
   s.dependency 'React'
-  s.dependency 'RCTText'
+  s.dependency 'React/RCTText'
   s.dependency 'InputMask'
 end
