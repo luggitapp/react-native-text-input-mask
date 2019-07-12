@@ -6,13 +6,13 @@ Pod::Spec.new do |s|
   s.name = 'RNTextInputMask'
   s.version      = package['version']
   s.summary      = package['description']
-  s.homepage     = package['homepage']
+  s.homepage     = 'https://github.com/luggitapp/react-native-text-input-mask'
   s.license      = 'MIT'
   s.authors      = package['author']
-  s.source       = { :git => package['repository']['url'] }
+  s.source       = { :git => 'https://github.com/luggitapp/react-native-text-input-mask.git' }
   s.platform     = :ios, '8.0'
   s.framework    = 'UIKit'
-  s.source_files = 'ios/RNTextInputMask/RNTextInputMask/*.{h,m}'
+  s.source_files = 'ios/RNTextInputMask/*.{h,m}'
   s.dependency 'React'
   s.dependency 'InputMask'
 end
